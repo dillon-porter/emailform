@@ -12,9 +12,10 @@
         <img class="featured-img" src="dog.jpg" alt="Illustration of a happy dog.">
         <h1 class="heading">BarkerBox - Subscribe and Save 15%</h1>
         <p class="description">Discover a monthly subscription box that brings an assortment of unique, playful, and durable toys that dogs will love. Subscribe now and enjoy exclusive benefits!</p>
-        <form class="registration-form" onsubmit="submitForm(event)">
-            <input type="text" id="name" placeholder="Enter your name" required>
-            <input type="email" id="email" placeholder="Enter your email" required>
+        <form class="registration-form" name="contact" method="POST" action="/thankyou.html" netlify>
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
             <button type="submit" class="cta-button">Get My 15% Off</button>
         </form>
     </div>
