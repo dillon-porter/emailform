@@ -13,6 +13,7 @@
     "coupon-code": "^0.4.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "nodemailer": "^6.9.3"
+    "nodemailer": "^6.9.3",
+    "path": "^0.12.7"
   }
 }
